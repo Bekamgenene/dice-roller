@@ -1,11 +1,15 @@
 Dice Roller 🎲
+
 Welcome to the Dice Roller project! This application provides a simple and interactive way to simulate rolling dice, making it a perfect tool for games, educational purposes, or just for fun.
+
 
 Features
 🎲 Roll one or multiple dice at once.
 🔢 Support for various dice types (e.g., D6, D20, etc.).
 📊 Display results in a user-friendly format.
 🛠️ Customizable dice settings and rolling options.
+
+
 Installation
 To get started with the Dice Roller, follow these steps:
 
