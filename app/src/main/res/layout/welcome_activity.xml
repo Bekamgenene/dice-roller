@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#87CEEB"
+    android:padding="24dp">
+
+    <!-- Dice Icon -->
+<ImageView
+android:id="@+id/logo"
+android:layout_width="150dp"
+android:layout_height="150dp"
+android:layout_centerInParent="true"
+android:src="@drawable/dice_icon"
+android:contentDescription="Dice Logo" />
+
+    <!-- Welcome Text -->
+<TextView
+android:id="@+id/welcomeText"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_below="@id/logo"
+android:layout_centerHorizontal="true"
+android:layout_marginTop="20dp"
+android:text="Welcome to Dice Roller"
+android:textSize="26sp"
+android:textStyle="bold"
+android:textColor="#FFFFFF"
+android:shadowColor="#000000"
+android:shadowDx="2"
+android:shadowDy="2"
+android:shadowRadius="3" />
+    <TextView
+        android:id="@+id/footerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ANAA DHUFU"
+        android:textColor="#888888"
+        android:textSize="14sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"/>
+
+
+
+</RelativeLayout>
